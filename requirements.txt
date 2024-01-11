@@ -5,6 +5,7 @@ click
 colorama
 fastapi
 Flask
+gunicorn
 h11
 idna
 itsdangerous
