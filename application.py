@@ -8,8 +8,11 @@ sc = pickle.load(open('standscaler.pkl', 'rb'))
 ms = pickle.load(open('minmaxscaler.pkl', 'rb'))
 application = Flask(__name__)
 
-
-@application.route('/', methods=['POST'])
+@application.route('/')
+def ok():
+    return "Running!"
+    
+@application.route('/pred', methods=['POST'])
 def predict():
     N = request.form['Nitrogen']
     P = request.form['Phosphorus']
