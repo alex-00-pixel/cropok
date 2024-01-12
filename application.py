@@ -34,7 +34,11 @@ def predict():
                  14: "Pomegranate", 15: "Lentil", 16: "Blackgram", 17: "Mungbean", 18: "Mothbeans",
                  19: "Pigeonpeas", 20: "Kidneybeans", 21: "Chickpea", 22: "Coffee"}
 
-    crop = crop_dict[prediction[0]]
+   
+    if prediction[0] in crop_dict:
+        crop = crop_dict[prediction[0]]
+    else:
+        crop = 'NOT able to recommend'
     return jsonify(crop)
 
 
