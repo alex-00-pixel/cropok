@@ -10,7 +10,7 @@ This project implements a crop recommendation system using a Random Forest class
 
 ## Requirements
 
-- Python 3.x
+- Python 3.11
 - Flask
 - scikit-learn
 - Railway account (for deployment)
@@ -19,8 +19,8 @@ This project implements a crop recommendation system using a Random Forest class
 
 1. Clone the repository:
 
-    git clone https://github.com/your_username/crop-recommendation-api.git
-    cd crop-recommendation-api
+    git clone https://github.com/alex-00-pixel/crop-recommnd-API.git
+    cd crop-recommnd-API
 
 2. Install dependencies:
 
@@ -34,24 +34,6 @@ This project implements a crop recommendation system using a Random Forest class
     python app.py
 
 3. Send POST requests to the API endpoint with JSON data containing the necessary features for crop recommendation.
-
-## API Endpoint
-
-POST /predict
-
-Request Body
-
-{
-  "temperature": 30,
-  "humidity": 70,
-  "rainfall": 100
-}
-
-Response
-
-{
-  "crop_recommendation": "rice"
-}
 
 ## Deployment
 
