@@ -1,4 +1,4 @@
-# Crop Recommendation System API
+# Crop Recommendation API
 
 This project implements a crop recommendation system using a Random Forest classifier with an accuracy of 99.18%.
 
