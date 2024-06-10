@@ -8,24 +8,6 @@ This project implements a crop recommendation system using a Random Forest class
 - Converts the model into a Flask API for easy integration.
 - Hosted on the Railway cloud platform for scalability and reliability.
 
-## Requirements
-
-- Python 3.11
-- Flask
-- scikit-learn
-- Railway account (for deployment)
-
-## Installation
-
-1. Clone the repository:
-
-    git clone https://github.com/alex-00-pixel/crop-recommnd-API.git
-    cd crop-recommnd-API
-
-2. Install dependencies:
-
-    pip install -r requirements.txt
-
 ## Usage
 
 1. Train the model using your dataset.
@@ -34,23 +16,6 @@ This project implements a crop recommendation system using a Random Forest class
     python app.py
 
 3. Send POST requests to the API endpoint with JSON data containing the necessary features for crop recommendation.
-
-## Deployment
-
-1. Sign up for a Railway account.
-2. Install Railway CLI:
-
-    npm install -g railway
-
-3. Deploy to Railway:
-
-    railway up
-
-## Credits
-
-- Flask
-- scikit-learn
-- Railway
 
 ## License
 
