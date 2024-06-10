@@ -1,12 +1,19 @@
 # Crop Recommendation System API
 
-This project implements a crop recommendation system using a Random Forest classifier with an accuracy of 99.18%. The model is deployed as a RESTful API using Flask and hosted on the Railway cloud platform.
+This project implements a crop recommendation system using a Random Forest classifier with an accuracy of 99.18%.
 
 ## Features
 
 - Utilizes Random Forest algorithm for accurate crop recommendations.
 - Converts the model into a Flask API for easy integration.
-- Hosted on the Railway cloud platform for scalability and reliability.
+
+## Input Parameters
+- Nitrogen
+- Phosphorus
+- Potassium
+- Temperature
+- Humidity
+- Ph
 
 ## Usage
 
