@@ -1,7 +1,7 @@
 # Crop Recommendation API
 
-[cropok-production.up.railway.api](https://cropok-production.up.railway.app).
-This project implements a crop recommendation system using a Random Forest classifier with an accuracy of 99.18%.
+This project implements a crop recommendation system using a Random Forest classifier with an accuracy of 99.18%. It is deployed and accessible at [cropok-production.up.railway.api](https://cropok-production.up.railway.app).
+
 
 ## Features
 
@@ -16,10 +16,9 @@ This project implements a crop recommendation system using a Random Forest class
 - Humidity
 - Ph
 
-## Usage
+## Note
 
-1. Train the model using your dataset.
-2. Start the Flask server:
+The API is currently not working due to the free trial limit being exceeded. You are free to deploy and use it in your own environment.
 
     python app.py
 
