@@ -19,7 +19,3 @@ This project implements a crop recommendation system using a Random Forest class
 ## Note
 
 The API is currently not working due to the free trial limit being exceeded. You are free to deploy and use it in your own environment.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
