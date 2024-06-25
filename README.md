@@ -20,10 +20,6 @@ This project implements a crop recommendation system using a Random Forest class
 
 The API is currently not working due to the free trial limit being exceeded. You are free to deploy and use it in your own environment.
 
-    python app.py
-
-3. Send POST requests to the API endpoint with JSON data containing the necessary features for crop recommendation.
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
